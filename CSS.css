@@ -1,0 +1,84 @@
+/*Designed by AVISHEK CHOWDHURY(MAC)*/
+.article em {
+  color: indianred;
+  background-color: gray;
+}
+a:link {
+  color: rgb(45, 45, 167);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(216, 22, 22);
+}
+a:hover {
+  color: rgb(43, 190, 33);
+}
+a:active {
+  color: rgb(169, 201, 30);
+}
+header {
+  cursor: help;
+}
+.custom,
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: greenyellow;
+  transition: height 4.5s linear;
+}
+nav:hover {
+  height: 45%;
+}
+aside {
+  box-shadow: 5px 5px 2px 2px rgb(102, 123, 211);
+  width: 100px;
+  height: 50px;
+  background: linear-gradient(grey 50%, blue 50%);
+  transition: width 4.5s linear;
+  transform: translate(10px, 5px) skew(20deg) rotate(10deg);
+}
+aside:hover {
+  width: 100%;
+}
+.dp {
+  border-radius: 50%;
+}
+@keyframes animation {
+  0% {
+    background-color: rebeccapurple;
+  }
+  50% {
+    background-color: royalblue;
+  }
+  40% {
+    background-color: red;
+  }
+}
+body {
+  text-align: center;
+  /*animation: animation 1s ease 2s infinite normal none;
+  animation-name: animation;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;*/
+}
+.bg {
+  background-image: url(icon.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(8px);
+}
+input {
+  width: 100%;
+  border: 0;
+  margin: 15px;
+  padding: 15px;
+  border-bottom: 4px solid #ccc;
+  background-color: transparent;
+}
+
+input:focus {
+  width: 100%;
+  outline: none;
+  transition: border 0.9s ease;
+  border-bottom: 4px solid #3399ff;
+}
